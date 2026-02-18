@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/therajsoni/todo-app-1.git'
+                git  url: 'https://github.com/therajsoni/rate', branch: 'main'
             }
         }
 
